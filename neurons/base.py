@@ -2,7 +2,7 @@
 """
 Created on February 2023
 
-@author: Arnaud Yarga
+@author: Anonymous
 """
 
 import torch
