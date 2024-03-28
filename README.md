@@ -1,6 +1,9 @@
 
 # Accelerating SNN Training with Stochastic Parallelizable Spiking Neurons (SPSN)
 
+> [!WARNING]  
+> SPSN has evolved into the ParaLIF (Parallelizable Leaky-Integrate-and-Fire) neuron. ParaLIF allows more stochastic and deterministic spiking functions. A recurrent version is also available. Visit https://github.com/NECOTIS/Parallelizable-Leaky-Integrate-and-Fire-Neuron 
+
 This repository contains code for simulating the proposed SPSN to accelerate training of spiking neural networks (SNN). The SPSN is compared to Leaky Integrate and Fire (LIF) neuron on the Spiking Heidelberg Digits (SHD) dataset. This repository consists of a few key components:
 
 - `datasets.py`: This module provides a simple interface for loading and accessing training and test datasets.
